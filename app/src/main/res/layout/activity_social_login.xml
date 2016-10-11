@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.a678developers.food_on_version_00.social_login">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="facebook"
+        android:id="@+id/facebook_btn"
+        android:layout_marginTop="171dp"
+        android:background="#5e89e5"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Email"
+        android:id="@+id/email_btn"
+        android:textSize="20dp"
+        android:background="#aaffffff"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/facebook_btn"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use as Guest"
+        android:id="@+id/use_as_guest_txt"
+        android:layout_marginTop="60dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#534e4e"
+        android:layout_below="@+id/email_btn"
+        android:layout_centerHorizontal="true"
+        android:background="#aaffffff" />
+</RelativeLayout>

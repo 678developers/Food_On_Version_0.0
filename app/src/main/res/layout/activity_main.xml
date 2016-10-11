@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.a678developers.food_on_version_00.MainActivity"
+    android:focusable="false">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Sell Food"
+        android:id="@+id/sell_food_btn"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:background="#64f8832a"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/find_food_btn"
+        android:layout_alignLeft="@+id/find_food_btn" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Find Food"
+        android:id="@+id/find_food_btn"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#32ffffff"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:layout_below="@id/sell_food_btn"
+        android:layout_marginTop="25dp" />
+</RelativeLayout>
