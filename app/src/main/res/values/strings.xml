@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Food_On_Version_0.0</string>
+    <string name="use_as_guest">Use as Guest</string>
+    <string name="email">Email</string>
+    <string name="facebook">facebook</string>
+    <string name="password">Password</string>
+    <string name="country_name">Country name</string>
+    <string name="city">City</string>
+    <string name="can_apos_t_wait_sign_me_up">Can\'t wait! Sign me up!</string>
+    <string name="sell_food">Sell Food</string>
+    <string name="find_food">Find Food</string>
+    <string name="forgotten_password">Forgotten Password?</string>
+    <string name="login">Login</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="i_am_new">I am New</string>
+    <string name="sign_me_up">Sign me Up</string>
 </resources>

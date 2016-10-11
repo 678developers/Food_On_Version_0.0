@@ -13,9 +13,9 @@
     <Button
         android:layout_width="150dp"
         android:layout_height="50dp"
-        android:text="Sell Food"
+        android:text="@string/sell_food"
         android:id="@+id/sell_food_btn"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold|italic"
         android:background="#64f8832a"
         android:layout_centerVertical="true"
@@ -25,13 +25,13 @@
     <Button
         android:layout_width="150dp"
         android:layout_height="50dp"
-        android:text="Find Food"
+        android:text="@string/find_food"
         android:id="@+id/find_food_btn"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:background="#32ffffff"
         android:textStyle="bold|italic"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:layout_below="@id/sell_food_btn"
         android:layout_marginTop="25dp" />
 </RelativeLayout>

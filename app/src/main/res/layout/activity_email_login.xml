@@ -13,16 +13,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Already have an account?"
+        android:text="@string/already_have_an_account"
         android:id="@+id/textView"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="@string/login"
         android:id="@+id/login_btn"
         android:layout_alignTop="@+id/textView"
         android:layout_centerHorizontal="true"
@@ -31,19 +31,19 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="I am New"
+        android:text="@string/i_am_new"
         android:id="@+id/textView2"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="66dp"
-        android:textSize="25dp" />
+        android:textSize="25sp" />
 
     <Button
         android:layout_width="200dp"
         android:layout_height="60dp"
-        android:text="Sign me Up"
+        android:text="@string/sign_me_up"
         android:id="@+id/signup_btn"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp" />
